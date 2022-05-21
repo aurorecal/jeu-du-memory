@@ -1,0 +1,50 @@
+<html>
+<head>
+   <title>jeu de memory</title>
+   <meta charset="utf-8">
+</head>
+<style>
+  body{
+    background-image:url('fond.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+</style>
+<body text="black" onload="chargement();"> <!--onload exécute un script une fois que tout le contenu d’une page web est complètement chargé voir fonction chargement dans le js-->
+
+<center>
+  <table border=1 bgcolor="white">
+<tr>
+<td align=center colspan="4"><form name="fm"><font face="arial"><font color="black"><font size=2>il vous reste&nbsp;<input type="text" name="zone" size=2 value="50"> clic</font></font></font></b>&nbsp;</td>
+</tr>
+<tr>
+
+<td><a href="javascript:clic(0)"><img src="dos.jpg"  height=150 width=150></a></td>
+<td><a href="javascript:clic(1)"><img src="dos.jpg"  height=150 width=150></a></td>
+<td><a href="javascript:clic(2)"><img src="dos.jpg"  height=150 width=150></a></td>
+<td><a href="javascript:clic(3)"><img src="dos.jpg"  height=150 width=150></a></td>
+</tr>
+<tr>
+<td><a href="javascript:clic(4)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(5)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(6)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(7)"><img src="dos.jpg" height=150 width=150></a></td>
+</tr>
+<tr>
+<td><a href="javascript:clic(8)"><img src="dos.jpg"  height=150 width=150></a></td>
+<td><a href="javascript:clic(9)"><img src="dos.jpg"  height=150 width=150></a></td>
+<td><a href="javascript:clic(10)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(11)"><img src="dos.jpg" height=150 width=150></a></td>
+</tr>
+<tr>
+<td><a href="javascript:clic(12)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(13)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(14)"><img src="dos.jpg" height=150 width=150></a></td>
+<td><a href="javascript:clic(15)"><img src="dos.jpg" height=150 width=150></a></td>
+</tr>
+
+</table>
+</form>
+<script src="js/jeu_memory.js"></script>
+</body>
+</html>
